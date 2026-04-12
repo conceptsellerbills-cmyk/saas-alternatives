@@ -254,7 +254,29 @@ export default function HomePage() {
             <a href="/categories" className="section-link">View all →</a>
           </div>
           <div className="category-grid">
-            {([{"icon":"📊","label":"Analytics","desc":"Google Analytics alternatives","href":"/category/analytics"},{"icon":"💬","label":"Messaging","desc":"Slack & Intercom alternatives","href":"/category/messaging"},{"icon":"📧","label":"Email Marketing","desc":"Mailchimp & ActiveCampaign alts","href":"/category/email-marketing"},{"icon":"🎨","label":"Design Tools","desc":"Figma & Canva alternatives","href":"/category/design"},{"icon":"📁","label":"Project Mgmt","desc":"Asana, Jira & Monday.com alts","href":"/category/project-management"},{"icon":"🛒","label":"E-commerce","desc":"Shopify & BigCommerce alts","href":"/category/ecommerce"}] as {icon:string,label:string,desc:string,href:string}[]).map((c) => (
+            {([
+    {"icon":"📊","label":"Analytics","desc":"Google Analytics alternatives","href":"/category/analytics"},
+    {"icon":"💬","label":"Messaging","desc":"Slack & Intercom alternatives","href":"/category/messaging"},
+    {"icon":"📧","label":"Email Marketing","desc":"Mailchimp & ActiveCampaign alts","href":"/category/email-marketing"},
+    {"icon":"🎨","label":"Design Tools","desc":"Figma & Canva alternatives","href":"/category/design"},
+    {"icon":"📁","label":"Project Mgmt","desc":"Asana, Jira & Monday.com alts","href":"/category/project-management"},
+    {"icon":"🛒","label":"E-commerce","desc":"Shopify & BigCommerce alts","href":"/category/ecommerce"},
+    {"icon":"🤝","label":"CRM","desc":"HubSpot & Salesforce alts","href":"/category/crm"},
+    {"icon":"👥","label":"HR & Payroll","desc":"BambooHR & Gusto alternatives","href":"/category/hr-payroll"},
+    {"icon":"🎧","label":"Customer Support","desc":"Zendesk & Intercom alts","href":"/category/customer-support"},
+    {"icon":"⚡","label":"Marketing Auto","desc":"ActiveCampaign & Mailchimp alts","href":"/category/marketing-automation"},
+    {"icon":"🧾","label":"Accounting","desc":"QuickBooks & FreshBooks alts","href":"/category/accounting"},
+    {"icon":"💻","label":"Developer Tools","desc":"GitHub & GitLab alternatives","href":"/category/developer-tools"},
+    {"icon":"☁️","label":"Cloud Storage","desc":"Dropbox & Google Drive alts","href":"/category/cloud-storage"},
+    {"icon":"🔑","label":"Password Manager","desc":"LastPass & 1Password alts","href":"/category/password-manager"},
+    {"icon":"📱","label":"Social Media","desc":"Hootsuite & Buffer alternatives","href":"/category/social-media"},
+    {"icon":"🔍","label":"SEO Tools","desc":"SEMrush & Ahrefs alternatives","href":"/category/seo-tools"},
+    {"icon":"🎓","label":"LMS","desc":"Teachable & Thinkific alts","href":"/category/lms"},
+    {"icon":"📋","label":"Survey & Forms","desc":"Typeform & JotForm alternatives","href":"/category/surveys-forms"},
+    {"icon":"🎬","label":"Video Hosting","desc":"Vimeo & Wistia alternatives","href":"/category/video-hosting"},
+    {"icon":"⏱️","label":"Time Tracking","desc":"Toggl & Clockify alternatives","href":"/category/time-tracking"},
+    {"icon":"🌐","label":"Website Builder","desc":"Webflow & Framer alternatives","href":"/category/website-builder"}
+  ] as {icon:string,label:string,desc:string,href:string}[]).map((c) => (
               <a href={c.href} className="category-card" key={c.label}>
                 <span className="category-icon">{c.icon}</span>
                 <div className="category-label">{c.label}</div>
