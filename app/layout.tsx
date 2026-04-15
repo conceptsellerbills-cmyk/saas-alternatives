@@ -46,18 +46,27 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 <svg width="12" height="12" viewBox="0 0 12 12" fill="currentColor"><path d="M2 4l4 4 4-4"/></svg>
               </button>
               <div className="cat-dropdown" role="menu">
-              <a href="/category/notion-alternatives">🔁 Notion Alternatives</a>
-              <a href="/category/slack-alternatives">💬 Slack Alternatives</a>
-              <a href="/category/figma-alternatives">🎨 Figma Alternatives</a>
-              <a href="/category/airtable-alternatives">📊 Airtable Alternatives</a>
-              <a href="/category/zapier-alternatives">🔗 Zapier Alternatives</a>
-              <a href="/category/shopify-alternatives">🛒 Shopify Alternatives</a>
-              <a href="/category/mailchimp-alternatives">📧 Mailchimp Alternatives</a>
-              <a href="/category/zoom-alternatives">📹 Zoom Alternatives</a>
-              <a href="/category/dropbox-alternatives">📁 Dropbox Alternatives</a>
-              <a href="/category/hubspot-alternatives">📈 HubSpot Alternatives</a>
-              <a href="/category/asana-alternatives">🎯 Asana Alternatives</a>
-              <a href="/category/stripe-alternatives">💳 Stripe Alternatives</a>
+              <a href="/category/analytics">📊 Analytics</a>
+              <a href="/category/messaging">💬 Messaging</a>
+              <a href="/category/email-marketing">📧 Email Marketing</a>
+              <a href="/category/design">🎨 Design Tools</a>
+              <a href="/category/project-management">📋 Project Management</a>
+              <a href="/category/ecommerce">🛒 E-commerce</a>
+              <a href="/category/crm">👥 CRM</a>
+              <a href="/category/hr-payroll">👔 HR & Payroll</a>
+              <a href="/category/customer-support">🎧 Customer Support</a>
+              <a href="/category/marketing-automation">⚡ Marketing Automation</a>
+              <a href="/category/accounting">💳 Accounting</a>
+              <a href="/category/developer-tools">💻 Developer Tools</a>
+              <a href="/category/cloud-storage">☁️ Cloud Storage</a>
+              <a href="/category/password-manager">🔑 Password Manager</a>
+              <a href="/category/social-media">📱 Social Media</a>
+              <a href="/category/seo-tools">🔍 SEO Tools</a>
+              <a href="/category/lms">🏫 LMS</a>
+              <a href="/category/surveys-forms">📝 Survey & Forms</a>
+              <a href="/category/video-hosting">🎥 Video Hosting</a>
+              <a href="/category/time-tracking">⏱️ Time Tracking</a>
+              <a href="/category/website-builder">🌐 Website Builder</a>
               </div>
             </nav>
           </div>
