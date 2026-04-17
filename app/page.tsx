@@ -5,6 +5,7 @@ import NewsletterForm from '../components/NewsletterForm'
 export const metadata: Metadata = {
   title: "Best SaaS Alternatives — Free, Open Source & Cheaper 2025",
   description: "Find cheaper, open source or free alternatives to expensive SaaS tools. Same power, fraction of the cost.",
+  alternates: { canonical: "https://www.saas-alternatives.com" },
 };
 
 const STARS = (n: number) => "★".repeat(n) + "☆".repeat(5 - n);
